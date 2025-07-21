@@ -1,0 +1,15 @@
+.header-app {
+  background-color: #114c07;
+  color: #FFF;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.header-app h1 {
+  margin: 2px;
+}
