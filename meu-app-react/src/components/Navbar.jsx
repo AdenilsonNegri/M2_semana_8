@@ -1,17 +1,17 @@
-import "./App.css";
-function App() {
+import "./Navbar.css";
+
+function Navbar() {
   return (
-    <header className="header-app">
-        <h1>Energia Solar 365</h1>
-        <p>Economize com o sol. Invista no seu Futuro!</p>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>         
-        </nav>
+
+    <header className="navbar-app">
+      <nav>
+        <a href="#Sobre">Sobre</a>
+        <a href="#Benefícios">Benefícios</a>
+        <a href="#Produtos">Produtos</a>
+        <a href="#Orçamento">Orçamento</a>         
+      </nav>
     </header>  
   );
 }
 
-export default App;
+export default Navbar;

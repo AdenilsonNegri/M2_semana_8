@@ -1,0 +1,26 @@
+.navbar-app {
+  display: flex;
+  justify-content: center;
+  background-color: #006633;
+  padding: 0.8rem 0;
+  gap: 2rem;
+}
+
+.navbar-app a {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-app nav {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+
+}
+
+
+.navbar-app a:hover {
+  color: #00d8ff;
+}
