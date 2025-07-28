@@ -1,0 +1,41 @@
+.porque-investir {
+  padding: 3rem 2rem;
+  background-color: #f1f9f8;
+  text-align: center;
+}
+
+.porque-investir h2 {
+  font-size: 1.8rem;
+  color: #004d26;
+  margin-bottom: 2rem;
+}
+
+.beneficios-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-beneficio {
+  background-color: #e6f7f0;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0 #006644;
+  text-align: left;
+}
+
+.card-beneficio h3 {
+  color: #003d1f;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-beneficio p {
+  color: #222;
+  font-size: 1rem;
+  line-height: 1.4;
+}
