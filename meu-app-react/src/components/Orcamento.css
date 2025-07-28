@@ -1,0 +1,52 @@
+.orcamento-container {
+  padding: 20px;
+  background-color: #f3f7f7;
+  font-family: sans-serif;
+}
+
+.orcamento-container h2 {
+  color: #004d40;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.orcamento-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.orcamento-form input,
+.orcamento-form textarea {
+  width: 50%;
+  margin: 0 auto;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  outline: none;
+}
+
+.orcamento-form textarea {
+  min-height: 100px;
+}
+
+.orcamento-form button {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #2e7d32;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.orcamento-form button:hover {
+  background-color: #1b5e20;
+}
