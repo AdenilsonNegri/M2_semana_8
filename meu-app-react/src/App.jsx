@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import SobreNos from "./components/SobreNos";
 import PorQueInvestir from "./components/PorQueInvestir";
+import Produtos from "./components/Produtos";
 function App() {
 
   return (
@@ -20,6 +21,8 @@ function App() {
       <SobreNos className="sobre-nos"/>
 
       <PorQueInvestir className="porque-investir" />
+
+      <Produtos className="produtos" />
 
       <footer className="footer-app">
         <p>&copy; 2023 Energia Solar 365. Todos os direitos reservados.</p>
